@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fan Site</title>
+<link rel="stylesheet" href="tertiary.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="header"><a href="index.html"><img src="Images/Patriots.jpg" class="img" alt="New England Patriots"></a></div>
+
+<div id="navbar">
+  <a href="news.html">News</a>  
+  <a href="milestones.html">Milestones</a>
+  <a href="roster.html">Roster</a>
+  <a href="references.html">References</a>
+  <a href="https://www.patriots.com" target="_blank" class="right">Official</a>
+</div>
+
+<h1 style="padding-left: 20px; color: #c8032b; text-shadow: 3px 3px 3px #002145;">References</h1>
+<h2 style="padding-left: 20px; color: #002145;">Here are where most of my sources come from:</h2>
+
+<div class="content">
+	<img src="https://www.gannett-cdn.com/presto/2019/09/09/USAT/6102d0f0-ea00-4e6e-b742-7e7bb34b8b7e-Screen_Shot_2019-09-09_at_12.30.21_AM.png" height="600px" width="1050px" style="margin: 50px;">
+	<br>
+	 <a href="https://www.facebook.com/newenglandpatriots/" target="_blank" class="fa fa-facebook" style="font-size: 25px; margin-top: 25px;"></a>
+       <a href="https://twitter.com/Patriots" target="_blank" class="fa fa-twitter" style="font-size: 25px;"></a>
+       <a href="https://www.instagram.com/patriots/" target="_blank" class="fa fa-instagram" style="font-size: 25px;"></a>
+       <a href="https://www.youtube.com/channel/UCMm_V8YjmnZRhToXIqDYDuw" target="_blank" class="fa fa-youtube" style="font-size: 25px;"></a>
+       <a href="https://www.pinterest.com/Patriots/" target="_blank" class="fa fa-pinterest" style="font-size: 25px;"></a>
+       <a href="https://www.reddit.com/r/Patriots/" target="_blank" class="fa fa-reddit" style="font-size: 25px;"></a>
+       <a href="https://www.snapchat.com/add/patriots" target="_blank" class="fa fa-snapchat-ghost" style="font-size: 25px;"></a>
+       <br>
+	<ul>
+		<li><a href="https://www.patriots.com"\>Patriots Official Website</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/Template:New_England_Patriots_roster">Team Roster</a></li>
+		<li><a href="https://www.nfl.com/">NFL Official Website</a></li>
+		<li><a href="https://nesn.com/new-england-patriots/">NESN</a></li>
+		<li class="pointer">And based on my knowledge on the team</li>
+	</ul>
+</div>
+
+<div class="footer">
+  <h3>© 2019 Bryan Galindo</h3>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
